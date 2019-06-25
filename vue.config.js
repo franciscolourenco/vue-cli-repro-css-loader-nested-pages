@@ -3,8 +3,9 @@ module.exports = {
     'nestedpage1/index': {
       entry: 'src/nestedpage1/main.js',
     },
-    'nestedPpage2/index': {
+    'nestedPage2': {
       entry: 'src/nestedpage2/main.js',
+      filename: 'nestedpage2/index.html'
     },
   }
 }
